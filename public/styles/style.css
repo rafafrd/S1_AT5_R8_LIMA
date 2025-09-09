@@ -3,4 +3,8 @@
 body {
   background-color: whitesmoke;
 }
-
+.cabecalho {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+}
