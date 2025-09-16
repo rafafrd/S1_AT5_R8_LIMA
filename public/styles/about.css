@@ -1,4 +1,18 @@
 .about-main {
+  display: flex;
+  width: 100%;
+  align-items: center; 
+}
+
+.text-box,
+.image-box {
+  flex: 1;
   padding: 20px;
-  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto; 
+  display: flex;
 }
