@@ -1,0 +1,98 @@
+/* css das paginas principais */
+
+body {
+    background-color: whitesmoke;
+  }
+  
+  /* cabeçalho e navbar */
+  
+  .navbar {
+    background-color: #666666;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 80px;
+  }
+  
+  .navbar a {
+    color: red;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  /* ------------------- */
+  /* main */
+  
+  
+  
+  
+  /* ------------------- */
+  /* rodapé */
+  footer {
+    background-color: #666666;
+    color: white;
+    padding: 30px 40px; 
+  }
+  
+  .footer-section {
+    display: flex; 
+    justify-content: space-between;
+  }
+  
+  .footer-section > div {
+    margin-bottom: 25px; 
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 15px; 
+    font-size: 1.1em;
+  }
+  
+  
+  .footer-section ul {
+    list-style-type: none; 
+    padding-left: 0;       
+  }
+  
+  .footer-section li {
+      margin-bottom: 8px; 
+  }
+  
+  .footer-section a {
+    color: #8ab4f8; 
+    text-decoration: underline; 
+  }
+  
+  .contact li {
+      color: white;
+  }
+  /* main */
+.about-main { /* Certifique-se de que sua tag <main> tenha a classe "about-main" */
+    flex-grow: 1; /* Faz com que o main ocupe o espaço restante vertical */
+    display: flex; /* Ativa o flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    background-color: white; /* Fundo branco para a área dos quadrados */
+    padding: 100px 0; /* Adiciona um pouco de padding vertical para não encostar nas bordas */
+}
+
+.container {
+    display: flex;
+    gap: 150px; /* Ajuste o espaçamento entre os quadrados para 40px */
+}
+
+.square {
+    width: 220px; /* Largura do quadrado */
+    height: 260px; /* Altura do quadrado (agora são quadrados perfeitos) */
+    background-color: red;
+    border-radius: 15px; /* Aumenta o arredondamento dos cantos para 30px */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}

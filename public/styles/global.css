@@ -1,6 +1,7 @@
 /* css do sistema inteiro */
 @import url(style.css);
 @import url(about.css);
+@import url(marketplace.css);
 .montserrat-custom {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
