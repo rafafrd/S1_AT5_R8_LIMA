@@ -4,3 +4,73 @@ body {
   background-color: whitesmoke;
 }
 
+/* cabeçalho e navbar */
+
+.navbar {
+  background-color: #666666;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 80px;
+}
+
+.navbar a {
+  color: red;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+/* ------------------- */
+/* main */
+
+
+
+
+/* ------------------- */
+/* rodapé */
+footer {
+  background-color: #666666;
+  color: white;
+  padding: 30px 40px; 
+}
+
+.footer-section {
+  display: flex; 
+  justify-content: space-between;
+}
+
+.footer-section > div {
+  margin-bottom: 25px; 
+}
+
+.footer-section h4 {
+  margin-bottom: 15px; 
+  font-size: 1.1em;
+}
+
+
+.footer-section ul {
+  list-style-type: none; 
+  padding-left: 0;       
+}
+
+.footer-section li {
+    margin-bottom: 8px; 
+}
+
+.footer-section a {
+  color: #8ab4f8; 
+  text-decoration: underline; 
+}
+
+.contact li {
+    color: white;
+}
